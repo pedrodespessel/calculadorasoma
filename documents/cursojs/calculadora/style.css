@@ -1,0 +1,19 @@
+
+        body{
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(204, 204, 204);
+            text-align: center;
+            align-items: center;
+            vertical-align: center;}
+        #box{
+            background-color: rgb(0, 0, 0);
+            padding-left: 5px;
+            border: 5px solid #000;
+            height: 80vh;
+            margin-left: 50vh;
+            margin-right: 50vh;
+            border-radius: 10px;}
+        .box{border-radius: 5px; border: 2px solid #000;}
+        #b {border-radius: 5px; border: 2px solid #000;}
+        #b:hover {background-color: rgb(139, 230, 127);}

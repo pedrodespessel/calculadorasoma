@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Soma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="box">
+        <h1 id="x">CALCULADORA DE SOMA</h1>
+        <br>
+        <input type="number" id="v1" class="box">
+        +
+        <input type="number" id="v2" class="box">
+        <input type="button" id="b" value="Somar" onclick="c()">
+        <br>
+        <br>
+        <br>
+        <div id="resultado" style="margin: auto;" style="height: auto;">RESULTADO</div>
+        <p><small><small><small>@pedrodespessel</small></small></small</p>
+    </div>
+    <script>
+        function c() {
+            var a1 = window.document.getElementById('v1').value
+            var a2 = window.document.getElementById('v2').value
+            var q1 = Number(a1)
+            var q2 = Number(a2)
+            var res = q1 + q2
+            var x = window.document.getElementById('resultado')
+            x.style.backgroundColor = "green"
+            x.style.width = "200px"
+            x.style.height = "40px"
+            x.style.textAlign = "center"
+            x.innerText = `Resultado: ${res}`
+            }
+    </script>
+</body>
+</html>
